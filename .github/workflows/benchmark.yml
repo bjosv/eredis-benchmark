@@ -1,12 +1,12 @@
 name: benchmark
 on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Forced run: set to -f'
+        required: false
+        default: ''
   schedule:
-    - workflow_dispatch:
-        inputs:
-          force:
-            description: 'Forced run: set to -f'
-            required: false
-            default: ''
     - cron: '0 0 * * *' # Once per day at midnight
 
 jobs:
