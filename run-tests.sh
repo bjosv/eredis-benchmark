@@ -21,31 +21,23 @@ do
     esac
 done
 
-# Prepare eredis
-rm -rf eredis
-git clone git@github.com:Nordix/eredis.git
+# Temporary patch eredis, will be removed
 cd eredis
-
-# Use correct path
 sed -i 's|../eredis/|_build/default/lib/eredis/|' priv/basho_bench_eredis.config
 sed -i 's|{duration, 15}|{duration, 1}|' priv/basho_bench_eredis.config
 sed -i 's|../eredis/|_build/default/lib/eredis/|' priv/basho_bench_eredis_pipeline.config
 sed -i 's|{duration, 15}|{duration, 1}|' priv/basho_bench_eredis_pipeline.config
 # Modify timeout from 100ms to 500ms
 sed -i 's|, 100)|, 200)|g' src/basho_bench_driver_eredis.erl
+cd -
 
+# Get eredis revision
+cd eredis
 rev=$(git rev-parse HEAD)
 cd -
 
 # Stop if results already exists
 [ -d "results/${rev}" ] && [ $force -ne 1 ] && echo "Results for ${rev} already exists." && exit 0
-
-# Prepare lasp-bench
-rm -rf lasp-bench
-git clone git@github.com:lasp-lang/lasp-bench.git
-cd lasp-bench
-git reset --hard ${lasp_bench_rev}
-cd -
 
 # Build all
 make -C eredis compile

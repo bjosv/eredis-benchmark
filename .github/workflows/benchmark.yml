@@ -20,5 +20,17 @@ jobs:
         with:
           r-version: "4.0.2"
 
+      - uses: actions/checkout@v2
+        with:
+          repository: lasp-lang/lasp-bench
+          ref: d9b3e78d64ea4709ca10ec062c7fc969c1c503d4
+          path: lasp-bench
+
+      - uses: actions/checkout@v2
+        with:
+          repository: Nordix/eredis
+          ref: master
+          path: eredis
+
       - name: Run tests and commit results
         run: ./run-tests.sh ${{ github.event.inputs.force }}
