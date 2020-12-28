@@ -24,9 +24,7 @@ done
 # Temporary patch eredis, will be removed
 cd eredis
 sed -i 's|../eredis/|_build/default/lib/eredis/|' priv/basho_bench_eredis.config
-sed -i 's|{duration, 15}|{duration, 1}|' priv/basho_bench_eredis.config
 sed -i 's|../eredis/|_build/default/lib/eredis/|' priv/basho_bench_eredis_pipeline.config
-sed -i 's|{duration, 15}|{duration, 1}|' priv/basho_bench_eredis_pipeline.config
 # Modify timeout from 100ms to 500ms
 sed -i 's|, 100)|, 200)|g' src/basho_bench_driver_eredis.erl
 cd -
