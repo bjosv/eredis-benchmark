@@ -1,6 +1,38 @@
-2020-12-28 10:40:11.678 [debug] <0.103.0>@lager_handler_watcher:119 Lager installed handler {lager_file_backend,
-                            "/home/bjorn/git/eredis-benchmark/eredis/tests/20201228_104011/error.log"} into lager_event
-2020-12-28 10:40:11.678 [debug] <0.106.0>@lager_handler_watcher:119 Lager installed handler {lager_file_backend,
-                            "/home/bjorn/git/eredis-benchmark/eredis/tests/20201228_104011/console.log"} into lager_event
-2020-12-28 10:40:11.809 [notice] <0.96.0>@lager_file_backend:135 Changed loglevel of /home/bjorn/git/eredis-benchmark/eredis/tests/20201228_104011/console.log to debug
-2020-12-28 10:40:11.811 [error] <0.8.0>@lasp_bench:add_code_paths:227 Failed to add "/home/bjorn/git/eredis-benchmark/eredis/_build/default/l_build/default/lib/eredis/ebin" to code_path: {error,bad_directory}
+2020-12-28 09:54:37.343 [debug] <0.105.0>@lager_handler_watcher:119 Lager installed handler {lager_file_backend,
+                            "/home/runner/work/eredis-benchmark/eredis-benchmark/eredis/tests/20201228_095437/error.log"} into lager_event
+2020-12-28 09:54:37.343 [debug] <0.108.0>@lager_handler_watcher:119 Lager installed handler {lager_file_backend,
+                            "/home/runner/work/eredis-benchmark/eredis-benchmark/eredis/tests/20201228_095437/console.log"} into lager_event
+2020-12-28 09:54:37.589 [notice] <0.98.0>@lager_file_backend:135 Changed loglevel of /home/runner/work/eredis-benchmark/eredis-benchmark/eredis/tests/20201228_095437/console.log to debug
+2020-12-28 09:54:37.596 [info] <0.9.0>@lasp_bench:log_dimensions:252 Est. data size: 0.00 bytes
+2020-12-28 09:54:37.633 [info] <0.133.0>@lasp_bench_stats_writer_csv:new:43 module=lasp_bench_stats_writer_csv event=start stats_sink=csv
+2020-12-28 09:54:37.655 [info] <0.205.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.205.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.655 [info] <0.203.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.203.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.655 [info] <0.201.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.201.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.655 [info] <0.197.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.197.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.655 [info] <0.199.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.199.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.655 [info] <0.195.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.195.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.193.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.193.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.191.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.191.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.189.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.189.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.187.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.187.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.185.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.185.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.183.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.183.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.181.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.181.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.179.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.179.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.177.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.177.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.175.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.175.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.173.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.173.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.171.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.171.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.169.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.169.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.656 [info] <0.167.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.167.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.165.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.165.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.163.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.163.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.161.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.161.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.159.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.159.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.157.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.157.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.155.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.155.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.153.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.153.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.151.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.151.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.149.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.149.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.657 [info] <0.144.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.144.0> on 'bench@127.0.0.1'
+2020-12-28 09:54:37.830 [debug] <0.101.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event

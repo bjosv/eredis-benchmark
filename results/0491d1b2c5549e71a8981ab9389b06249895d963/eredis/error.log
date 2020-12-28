@@ -1,1 +1,0 @@
-2020-12-28 10:40:09.641 [error] <0.8.0>@lasp_bench:add_code_paths:227 Failed to add "/home/bjorn/git/eredis-benchmark/eredis/_build/default/l_build/default/lib/eredis/ebin" to code_path: {error,bad_directory}
