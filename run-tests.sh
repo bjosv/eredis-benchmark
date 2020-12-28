@@ -5,6 +5,9 @@
 # Usage: $0 [-f]
 #
 # -f : ignore that results already exists for revision
+#
+# Requires eredis and lasp-bench to be checked out before
+# running this script
 
 redis_version=6.0.9
 lasp_bench_rev=d9b3e78d64ea4709ca10ec062c7fc969c1c503d4
@@ -21,11 +24,11 @@ do
     esac
 done
 
-# Temporary patch eredis, will be removed
+# Temporary eredis patching, will be removed when submitted to eredis
 cd eredis
 sed -i 's|../eredis/|_build/default/lib/eredis/|' priv/basho_bench_eredis.config
 sed -i 's|../eredis/|_build/default/lib/eredis/|' priv/basho_bench_eredis_pipeline.config
-# Modify timeout from 100ms to 500ms
+# Modify timeout
 sed -i 's|, 100)|, 200)|g' src/basho_bench_driver_eredis.erl
 cd -
 
