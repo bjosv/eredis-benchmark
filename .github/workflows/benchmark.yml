@@ -1,10 +1,16 @@
 name: benchmark
 on:
   schedule:
+    - workflow_dispatch:
+        inputs:
+          force:
+            description: 'Forced run: set to -f'
+            required: false
+            default: ''
     - cron: '0 0 * * *' # Once per day at midnight
 
 jobs:
-  build:
+  tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,4 +21,4 @@ jobs:
           r-version: "4.0.2"
 
       - name: Run tests and commit results
-        run: ./run-tests.sh
+        run: ./run-tests.sh ${{ github.event.inputs.force }}
