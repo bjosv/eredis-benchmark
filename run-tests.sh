@@ -24,14 +24,6 @@ do
     esac
 done
 
-# Temporary eredis patching, will be removed when submitted to eredis
-cd eredis
-sed -i 's|../eredis/|_build/default/lib/eredis/|' priv/basho_bench_eredis.config
-sed -i 's|../eredis/|_build/default/lib/eredis/|' priv/basho_bench_eredis_pipeline.config
-# Modify timeout
-sed -i 's|, 100)|, 200)|g' src/basho_bench_driver_eredis.erl
-cd -
-
 # Get eredis revision
 cd eredis
 rev=$(git rev-parse HEAD)
