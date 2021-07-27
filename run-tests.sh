@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 #
 # Run benchmark tests in eredis and commit results
 #
@@ -10,7 +10,6 @@
 # running this script
 
 redis_version=6.0.9
-lasp_bench_rev=d9b3e78d64ea4709ca10ec062c7fc969c1c503d4
 
 # Parse arguments
 force=0
@@ -33,12 +32,13 @@ cd -
 [ -d "results/${rev}" ] && [ $force -ne 1 ] && echo "Results for ${rev} already exists." && exit 0
 
 # Build all
-make -C eredis compile
-make -C lasp-bench all
+make -C eredis clean compile
+make -C lasp-bench clean all
 
 # Run tests
 for testname in eredis eredis_pipeline
 do
+    echo "Running test ${testname}..."
     cd eredis
     docker run --name redis -d --net=host redis:${redis_version}
     ../lasp-bench/_build/default/bin/lasp_bench priv/basho_bench_${testname}.config
