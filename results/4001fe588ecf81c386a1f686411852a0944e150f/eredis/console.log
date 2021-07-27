@@ -1,0 +1,82 @@
+2021-07-27 09:49:37.719 [debug] <0.105.0>@lager_handler_watcher:119 Lager installed handler {lager_file_backend,
+                            "/home/runner/work/eredis-benchmark/eredis-benchmark/eredis/tests/20210727_094937/error.log"} into lager_event
+2021-07-27 09:49:37.719 [debug] <0.108.0>@lager_handler_watcher:119 Lager installed handler {lager_file_backend,
+                            "/home/runner/work/eredis-benchmark/eredis-benchmark/eredis/tests/20210727_094937/console.log"} into lager_event
+2021-07-27 09:49:38.047 [notice] <0.98.0>@lager_file_backend:135 Changed loglevel of /home/runner/work/eredis-benchmark/eredis-benchmark/eredis/tests/20210727_094937/console.log to debug
+2021-07-27 09:49:38.053 [info] <0.9.0>@lasp_bench:log_dimensions:252 Est. data size: 0.00 bytes
+2021-07-27 09:49:38.091 [info] <0.133.0>@lasp_bench_stats_writer_csv:new:43 module=lasp_bench_stats_writer_csv event=start stats_sink=csv
+2021-07-27 09:49:38.113 [info] <0.205.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.205.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.113 [info] <0.203.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.203.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.113 [info] <0.201.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.201.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.199.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.199.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.197.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.197.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.193.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.193.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.195.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.195.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.191.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.191.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.189.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.189.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.185.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.185.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.187.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.187.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.183.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.183.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.181.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.181.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.179.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.179.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.169.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.169.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.177.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.177.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.175.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.175.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.173.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.173.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.171.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.171.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.167.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.167.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.114 [info] <0.149.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.149.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.115 [info] <0.144.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.144.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.115 [info] <0.165.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.165.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.115 [info] <0.161.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.161.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.115 [info] <0.163.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.163.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.115 [info] <0.159.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.159.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.115 [info] <0.157.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.157.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.115 [info] <0.155.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.155.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.115 [info] <0.153.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.153.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.115 [info] <0.151.0>@lasp_bench_worker:worker_idle_loop:237 Starting max worker: <0.151.0> on 'bench@127.0.0.1'
+2021-07-27 09:49:38.201 [debug] <0.101.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2021-07-27 09:49:58.789 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},1},{{put,put},12},{{{get,get},timeout},1},{{{put,put},timeout},12}]
+2021-07-27 09:50:08.833 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},1},{{put,put},4},{{{get,get},timeout},1},{{{put,put},timeout},4}]
+2021-07-27 09:50:18.750 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},4},{{put,put},10},{{{get,get},timeout},4},{{{put,put},timeout},10}]
+2021-07-27 09:50:48.822 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},3},{{put,put},13},{{{get,get},timeout},3},{{{put,put},timeout},13}]
+2021-07-27 09:51:18.792 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},6},{{put,put},12},{{{get,get},timeout},6},{{{put,put},timeout},12}]
+2021-07-27 09:51:28.854 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},3},{{put,put},14},{{{get,get},timeout},3},{{{put,put},timeout},14}]
+2021-07-27 09:51:38.960 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{put,put},1},{{{put,put},timeout},1}]
+2021-07-27 09:52:18.786 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},3},{{put,put},15},{{{get,get},timeout},3},{{{put,put},timeout},15}]
+2021-07-27 09:52:28.906 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},6},{{put,put},19},{{{get,get},timeout},6},{{{put,put},timeout},19}]
+2021-07-27 09:52:38.915 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},2},{{put,put},1},{{{get,get},timeout},2},{{{put,put},timeout},1}]
+2021-07-27 09:52:49.022 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{put,put},1},{{{put,put},timeout},1}]
+2021-07-27 09:53:19.018 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},1},{{put,put},3},{{{get,get},timeout},1},{{{put,put},timeout},3}]
+2021-07-27 09:53:58.819 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},2},{{put,put},13},{{{get,get},timeout},2},{{{put,put},timeout},13}]
+2021-07-27 09:54:08.827 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},5},{{put,put},21},{{{get,get},timeout},5},{{{put,put},timeout},21}]
+2021-07-27 09:54:19.278 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},4},{{put,put},18},{{{get,get},timeout},4},{{{put,put},timeout},18}]
+2021-07-27 09:55:19.014 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},2},{{put,put},14},{{{get,get},timeout},2},{{{put,put},timeout},14}]
+2021-07-27 09:55:38.926 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},1},{{put,put},20},{{{get,get},timeout},1},{{{put,put},timeout},20}]
+2021-07-27 09:55:48.956 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},1},{{{get,get},timeout},1}]
+2021-07-27 09:55:58.861 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},2},{{put,put},9},{{{get,get},timeout},2},{{{put,put},timeout},9}]
+2021-07-27 09:56:09.016 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{put,put},5},{{{put,put},timeout},5}]
+2021-07-27 09:56:18.717 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},2},{{put,put},14},{{{get,get},timeout},2},{{{put,put},timeout},14}]
+2021-07-27 09:56:58.902 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},1},{{put,put},2},{{{get,get},timeout},1},{{{put,put},timeout},2}]
+2021-07-27 09:57:08.967 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},6},{{put,put},11},{{{get,get},timeout},6},{{{put,put},timeout},11}]
+2021-07-27 09:57:18.813 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},3},{{put,put},13},{{{get,get},timeout},3},{{{put,put},timeout},13}]
+2021-07-27 09:57:28.823 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},2},{{put,put},8},{{{get,get},timeout},2},{{{put,put},timeout},8}]
+2021-07-27 09:57:38.822 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},4},{{put,put},6},{{{get,get},timeout},4},{{{put,put},timeout},6}]
+2021-07-27 09:58:18.917 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},7},{{put,put},14},{{{get,get},timeout},7},{{{put,put},timeout},14}]
+2021-07-27 09:58:58.780 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},4},{{put,put},11},{{{get,get},timeout},4},{{{put,put},timeout},11}]
+2021-07-27 09:59:19.002 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},3},{{put,put},16},{{{get,get},timeout},3},{{{put,put},timeout},16}]
+2021-07-27 09:59:29.035 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},3},{{put,put},11},{{{get,get},timeout},3},{{{put,put},timeout},11}]
+2021-07-27 09:59:48.862 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},3},{{put,put},8},{{{get,get},timeout},3},{{{put,put},timeout},8}]
+2021-07-27 10:00:08.947 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},1},{{put,put},1},{{{get,get},timeout},1},{{{put,put},timeout},1}]
+2021-07-27 10:00:28.949 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},4},{{put,put},10},{{{get,get},timeout},4},{{{put,put},timeout},10}]
+2021-07-27 10:01:08.765 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},1},{{put,put},7},{{{get,get},timeout},1},{{{put,put},timeout},7}]
+2021-07-27 10:01:39.153 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},2},{{put,put},8},{{{get,get},timeout},2},{{{put,put},timeout},8}]
+2021-07-27 10:02:08.877 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},2},{{put,put},5},{{{get,get},timeout},2},{{{put,put},timeout},5}]
+2021-07-27 10:02:18.918 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},5},{{put,put},11},{{{get,get},timeout},5},{{{put,put},timeout},11}]
+2021-07-27 10:02:28.856 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},6},{{put,put},7},{{{get,get},timeout},6},{{{put,put},timeout},7}]
+2021-07-27 10:02:39.022 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},3},{{put,put},12},{{{get,get},timeout},3},{{{put,put},timeout},12}]
+2021-07-27 10:03:08.840 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},7},{{put,put},13},{{{get,get},timeout},7},{{{put,put},timeout},13}]
+2021-07-27 10:03:28.937 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},2},{{put,put},9},{{{get,get},timeout},2},{{{put,put},timeout},9}]
+2021-07-27 10:03:38.889 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},4},{{put,put},13},{{{get,get},timeout},4},{{{put,put},timeout},13}]
+2021-07-27 10:03:48.890 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},3},{{put,put},5},{{{get,get},timeout},3},{{{put,put},timeout},5}]
+2021-07-27 10:04:28.905 [info] <0.133.0>@lasp_bench_stats:process_stats:265 Errors:[{{get,get},4},{{put,put},19},{{{get,get},timeout},4},{{{put,put},timeout},19}]
