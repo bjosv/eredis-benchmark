@@ -11,7 +11,7 @@ on:
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
 
@@ -37,9 +37,12 @@ jobs:
 
       - name: Install Erlang/OTP
         run: |
-          DEB_NAME="esl-erlang_23.1-1~ubuntu~focal_amd64.deb"
+          DEB_NAME="esl-erlang_21.3.8.17-1~ubuntu~focal_amd64.deb"
           curl -f https://packages.erlang-solutions.com/erlang/debian/pool/$DEB_NAME -o $DEB_NAME
           sudo dpkg --install $DEB_NAME
+
+      - name: Updated Erlang/OTP version
+        run: erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell
 
       - name: Run tests and commit results
         run: ./run-tests.sh ${{ github.event.inputs.force }}

@@ -26,6 +26,7 @@ done
 # Get eredis revision
 cd eredis
 rev=$(git rev-parse HEAD)
+echo "Test eredis revision ${rev}"
 cd -
 
 # Stop if results already exists
